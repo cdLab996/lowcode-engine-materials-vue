@@ -1,5 +1,5 @@
 dist
 node_modules
 *.d.ts
-typings/*
-*src/lowcode/icon/antd-icon-setter/*
+packages/*/typings/*
+packages/*/src/lowcode/icon/antd-icon-setter/*

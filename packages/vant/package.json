@@ -11,5 +11,10 @@
   ],
   "dependencies": {
     "vant": "^4.4.1"
+  },
+  "devDependencies": {
+    "@knxcloud/vue-cli-plugin-lowcode": "^1.0.3",
+    "@vue/cli-plugin-typescript": "~5.0.8",
+    "@vue/cli-service": "~5.0.8"
   }
 }

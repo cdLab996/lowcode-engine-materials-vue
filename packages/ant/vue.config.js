@@ -13,6 +13,8 @@ module.exports = defineConfig({
     },
   },
   pluginOptions: {
-    lowcode: defineLowCodePluginOption({}),
+    lowcode: defineLowCodePluginOption({
+      library: 'antd',
+    }),
   },
 });

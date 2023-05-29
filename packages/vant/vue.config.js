@@ -3,6 +3,8 @@ const { defineLowCodePluginOption } = require('@knxcloud/vue-cli-plugin-lowcode'
 
 module.exports = defineConfig({
   pluginOptions: {
-    lowcode: defineLowCodePluginOption({}),
+    lowcode: defineLowCodePluginOption({
+      library: 'vant',
+    }),
   },
 });

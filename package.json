@@ -6,6 +6,7 @@
   "scripts": {
     "start": "pnpm -C packages/ant start",
     "build": "pnpm --stream -r run build",
+    "clean": "bash ./clean.sh",
     "prettier:write": "prettier --write \"src/**/*.{ts,tsx}\" \"build.lowcode.js\" \"vue.config.js\""
   },
   "repository": {
