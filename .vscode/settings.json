@@ -20,15 +20,35 @@
     "api-*.json": "jsonc"
   },
   "prettier.enable": true,
-  "eslint.validate": ["vue", "ts", "tsx"],
+  "eslint.validate": [
+    "vue",
+    "ts",
+    "tsx"
+  ],
   "volar.autoCompleteRefs": false,
   "volar.codeLens.scriptSetupTools": false,
   "volar.codeLens.references": false,
   "volar.completion.autoImportComponent": false,
   "volar.completion.preferredTagNameCase": "kebab",
-  "i18n-ally.localesPaths": ["node_modules/.i18n"],
+  "i18n-ally.localesPaths": [
+    "node_modules/.i18n"
+  ],
   "i18n-ally.autoDetection": false,
-  "i18n-ally.enabledFrameworks": ["vue"],
+  "i18n-ally.enabledFrameworks": [
+    "vue"
+  ],
   "i18n-ally.keystyle": "flat",
-  "stylelint.validate": ["css", "less", "scss", "postcss", "vue"]
+  "stylelint.validate": [
+    "css",
+    "less",
+    "scss",
+    "postcss",
+    "vue"
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }

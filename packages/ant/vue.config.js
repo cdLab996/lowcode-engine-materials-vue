@@ -1,5 +1,5 @@
-const { defineConfig } = require('@vue/cli-service')
-const { defineLowCodePluginOption } = require('@knxcloud/vue-cli-plugin-lowcode')
+const { defineConfig } = require('@vue/cli-service');
+const { defineLowCodePluginOption } = require('@knxcloud/vue-cli-plugin-lowcode');
 
 module.exports = defineConfig({
   transpileDependencies: true,
@@ -7,12 +7,12 @@ module.exports = defineConfig({
     loaderOptions: {
       less: {
         lessOptions: {
-          javascriptEnabled: true
-        }
-      }
-    }
+          javascriptEnabled: true,
+        },
+      },
+    },
   },
   pluginOptions: {
-    lowcode: defineLowCodePluginOption({})
-  }
-})
+    lowcode: defineLowCodePluginOption({}),
+  },
+});

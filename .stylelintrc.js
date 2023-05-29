@@ -4,7 +4,6 @@ module.exports = {
     'stylelint-config-standard',
     'stylelint-config-rational-order',
     'stylelint-config-recommended-vue',
-    'stylelint-config-recommended-scss',
   ],
   rules: {
     'at-rule-no-unknown': null,
