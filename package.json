@@ -1,0 +1,38 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "pnpm -C packages/element-plus start",
+    "build": "pnpm -r build",
+    "release": "pnpm publish -r --filter @cdlab996/* --no-git-checks --tag=latest",
+    "clean": "bash ./scripts/clean.sh",
+    "prettier:write": "prettier --write \"./**/src/**/*.{ts,tsx}\" \"./**/build.lowcode.js\" \"./**/vue.config.js\"",
+    "prepare": "pnpm run build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --check --write .",
+    "format:fail": "prettier --check ."
+  },
+  "devDependencies": {
+    "@alilc/lowcode-types": "^1.3.2",
+    "@babel/core": "^7.24.4",
+    "@cdlab996/eslint-config-vue": "0.0.6-beta.4",
+    "@cdlab996/prettier-config": "0.0.6-beta.4",
+    "@knxcloud/vue-cli-plugin-lowcode": "^1.1.4",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@vue/cli-plugin-babel": "5.0.8",
+    "@vue/cli-plugin-typescript": "5.0.8",
+    "@vue/cli-service": "5.0.8",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "sass": "^1.74.1",
+    "sass-loader": "^14.1.1",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.6",
+    "vite-plugin-lib-types": "^3.0.9",
+    "vue": "^3.4.21",
+    "webpack": "^5.76.0"
+  }
+}

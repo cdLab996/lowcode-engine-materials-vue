@@ -1,5 +1,5 @@
 {
-	"extends": "@vue/tsconfig/tsconfig.web.json",
-	"include": ["./src", "./lowcode", "./typings"],
-	"exclude": ["node_modules"]
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["./src", "./lowcode", "./typings"],
+  "exclude": ["node_modules"]
 }
