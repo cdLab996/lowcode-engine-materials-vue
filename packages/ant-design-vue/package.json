@@ -1,5 +1,5 @@
 {
-  "name": "@cdlab996/ant-lowcode-materials",
+  "name": "@cdlab996/lowcode-materials-antd",
   "version": "0.1.0",
   "description": "Ant design vue for lowcode",
   "main": "./dist/index.min.js",
