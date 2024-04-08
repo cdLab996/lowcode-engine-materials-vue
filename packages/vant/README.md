@@ -6,18 +6,26 @@
 
 <br />
 
-[![npm version](https://img.shields.io/npm/v/@cdlab996/vant-lowcode-materials2.7?logo=npm)](https://www.npmjs.com/package/@cdlab996/vant-lowcode-materials2.7)
-[![npm downloads](https://img.shields.io/npm/dm/@cdlab996/vant-lowcode-materials2.7)](https://www.npmjs.com/package/@cdlab996/vant-lowcode-materials2.7)
+[![npm version](https://img.shields.io/npm/v/@cdlab996/lowcode-materials-vant?logo=npm)](https://www.npmjs.com/package/@cdlab996/lowcode-materials-vant)
+[![npm downloads](https://img.shields.io/npm/dm/@cdlab996/lowcode-materials-vant)](https://www.npmjs.com/package/@cdlab996/lowcode-materials-vant)
 [![GitHub license](https://img.shields.io/github/license/cdLab996/lowcode-engine-ext-vue)](https://github.com/cdLab996/lowcode-engine-materials-vue2.7/blob/main/LICENSE)
 
 </div>
+
+## Component material complete list
+
+- [x] button
+- [x] image
+- [x] Switch
+- [x] tab
+- [x] tabs
 
 ## Usage Example
 
 ### pnpm
 
 ```bash
-pnpm add @cdlab996/vant-lowcode-materials2.7
+pnpm add @cdlab996/lowcode-materials-vant
 ```
 
 Import the package and initialize the editor:
@@ -25,7 +33,7 @@ Import the package and initialize the editor:
 ```ts
 import { injectAssets } from '@alilc/lowcode-plugin-inject'
 import { IPublicModelPluginContext } from '@alilc/lowcode-types'
-import assets from '@cdlab996/vant-lowcode-materials2.7/dist/assets.json'
+import assets from '@cdlab996/lowcode-materials-vant/dist/assets.json'
 
 const editorInit = (ctx: IPublicModelPluginContext) => {
   return {
@@ -57,7 +65,7 @@ const editorInit = (ctx: IPublicModelPluginContext) => {
     async init() {
       const { material, project } = ctx
 
-      const loadedAssets = await injectAssets('https://unpkg.com/@cdlab996/vant-lowcode-materials2.7@1.0.0/dist/assets.json')
+      const loadedAssets = await injectAssets('https://unpkg.com/@cdlab996/lowcode-materials-vant/dist/assets.json')
       material.setAssets(loadedAssets)
       // ...
     },
@@ -78,21 +86,21 @@ Here is an example of the `assets.json` file:
   "version": "1.0.0",
   "packages": [
     {
-      "package": "@cdlab996/vant-lowcode-materials2.7",
+      "package": "@cdlab996/lowcode-materials-vant",
       "version": "1.0.0",
-      "library": "Cdlab996VantLowcodeMaterials2.7",
+      "library": "Cdlab996LowcodeMaterialsVant",
       "urls": [
-        "https://unpkg.com/@cdlab996/vant-lowcode-materials2.7@1.0.0/dist/index.css",
-        "https://unpkg.com/@cdlab996/vant-lowcode-materials2.7@1.0.0/dist/index.js"
+        "https://unpkg.com/@cdlab996/lowcode-materials-vant/dist/index.css",
+        "https://unpkg.com/@cdlab996/lowcode-materials-vant/dist/index.js"
       ]
     }
   ],
   "components": [
     {
-      "exportName": "Cdlab996VantLowcodeMaterials2.7Meta",
-      "url": "https://unpkg.com/@cdlab996/vant-lowcode-materials2.7@1.0.0/dist/meta.js",
+      "exportName": "Cdlab996LowcodeMaterialsVantMeta",
+      "url": "https://unpkg.com/@cdlab996/lowcode-materials-vant/dist/meta.js",
       "package": {
-        "npm": "@cdlab996/vant-lowcode-materials2.7"
+        "npm": "@cdlab996/lowcode-materials-vant"
       }
     }
   ],
