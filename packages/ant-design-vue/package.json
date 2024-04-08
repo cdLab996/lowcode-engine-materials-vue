@@ -1,0 +1,44 @@
+{
+  "name": "@cdlab996/antd-lowcode-materials",
+  "version": "0.0.1",
+  "author": "wudi",
+  "license": "MIT",
+  "homepage": "https://unpkg.com/@cdlab996/antd-lowcode-materials/dist/index.js",
+  "repository": {
+    "type": "http",
+    "url": "https://github.com/cdLab996/lowcode-engine-materials-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cdLab996/lowcode-engine-materials-vue/issues"
+  },
+  "main": "./dist/index.min.js",
+  "module": "./dist/antd-lowcode-materials.mjs",
+  "typings": "./dist/antd-lowcode-materials.d.ts",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "start": "vue-cli-service lowcode:dev",
+    "build": "vue-cli-service lowcode:build && vite build",
+    "prepack": "pnpm build"
+  },
+  "peerDependencies": {
+    "vue": ">= 3.x < 4"
+  },
+  "dependencies": {
+    "ant-design-vue": "^4.1.2",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@alilc/lowcode-types": "^1.3.2",
+    "@knxcloud/vue-cli-plugin-lowcode": "^1.1.4",
+    "@vue/cli-plugin-babel": "5.0.8",
+    "@vue/cli-plugin-typescript": "5.0.8",
+    "@vue/cli-service": "5.0.8",
+    "vite-plugin-lib-types": "^3.0.9"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
