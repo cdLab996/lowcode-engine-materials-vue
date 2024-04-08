@@ -2,11 +2,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "pnpm -C packages/element-plus start",
+    "start": "pnpm -C packages/vant start",
     "build": "pnpm -r build",
     "release": "pnpm publish -r --filter @cdlab996/* --no-git-checks --tag=latest",
     "clean": "bash ./scripts/clean.sh",
-    "prettier:write": "prettier --write \"./**/src/**/*.{ts,tsx}\" \"./**/build.lowcode.js\" \"./**/vue.config.js\"",
     "prepare": "pnpm run build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
