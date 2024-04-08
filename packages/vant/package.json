@@ -1,9 +1,19 @@
 {
-  "name": "@cdlab996/lowcode-materials-vant",
+  "name": "@cdlab996/vant-lowcode-materials",
   "version": "0.0.1",
+  "author": "wudi",
+  "license": "MIT",
+  "homepage": "https://unpkg.com/@cdlab996/vant-lowcode-materials/dist/index.js",
+  "repository": {
+    "type": "http",
+    "url": "https://github.com/cdLab996/lowcode-engine-materials-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cdLab996/lowcode-engine-materials-vue/issues"
+  },
   "main": "./dist/index.min.js",
-  "module": "./dist/lowcode-materials-vant.mjs",
-  "typings": "./dist/lowcode-materials-vant.d.ts",
+  "module": "./dist/vant-lowcode-materials.mjs",
+  "typings": "./dist/vant-lowcode-materials.d.ts",
   "engines": {
     "node": ">=18.18.0"
   },
@@ -26,5 +36,9 @@
     "@vue/cli-plugin-typescript": "5.0.8",
     "@vue/cli-service": "5.0.8",
     "vite-plugin-lib-types": "^3.0.9"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }

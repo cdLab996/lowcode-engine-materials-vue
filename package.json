@@ -2,7 +2,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "pnpm -C packages/vant start",
+    "start": "pnpm -C packages/ant-design-vue start",
     "build": "pnpm -r build",
     "release": "pnpm publish -r --filter @cdlab996/* --no-git-checks --tag=latest",
     "clean": "bash ./scripts/clean.sh",

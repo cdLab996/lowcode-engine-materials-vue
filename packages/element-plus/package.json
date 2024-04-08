@@ -1,9 +1,19 @@
 {
-  "name": "@cdlab996/lowcode-materials-element-plus",
+  "name": "@cdlab996/element-plus-lowcode-materials",
   "version": "0.0.1",
+  "author": "wudi",
+  "license": "MIT",
+  "homepage": "https://unpkg.com/@cdlab996/element-plus-lowcode-materials/dist/index.js",
+  "repository": {
+    "type": "http",
+    "url": "https://github.com/cdLab996/lowcode-engine-materials-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cdLab996/lowcode-engine-materials-vue/issues"
+  },
   "main": "./dist/index.min.js",
-  "module": "./dist/lowcode-materials-element-plus.mjs",
-  "typings": "./dist/lowcode-materials-element-plus.d.ts",
+  "module": "./dist/element-plus-lowcode-materials.mjs",
+  "typings": "./dist/element-plus-lowcode-materials.d.ts",
   "engines": {
     "node": ">=18.18.0"
   },
@@ -25,5 +35,9 @@
     "@vue/cli-plugin-babel": "5.0.8",
     "@vue/cli-plugin-typescript": "5.0.8",
     "@vue/cli-service": "5.0.8"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }

@@ -6,9 +6,9 @@
 
 <br />
 
-[![npm version](https://img.shields.io/npm/v/@cdlab996/lowcode-materials-element-plus?logo=npm)](https://www.npmjs.com/package/@cdlab996/lowcode-materials-element-plus)
-[![npm downloads](https://img.shields.io/npm/dm/@cdlab996/lowcode-materials-element-plus)](https://www.npmjs.com/package/@cdlab996/lowcode-materials-element-plus)
-[![GitHub license](https://img.shields.io/github/license/cdLab996/lowcode-engine-materials-vue)](https://github.com/cdLab996/lowcode-engine-materials-vue/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@cdlab996/element-plus-lowcode-materials?logo=npm)](https://www.npmjs.com/package/@cdlab996/element-plus-lowcode-materials)
+[![npm downloads](https://img.shields.io/npm/dm/@cdlab996/element-plus-lowcode-materials)](https://www.npmjs.com/package/@cdlab996/element-plus-lowcode-materials)
+[![GitHub license](https://github.com/cdLab996/lowcode-engine-materials-vue)](https://github.com/cdLab996/lowcode-engine-materials-vue/blob/main/LICENSE)
 
 </div>
 
@@ -22,7 +22,7 @@
 ### pnpm
 
 ```bash
-pnpm add @cdlab996/lowcode-materials-element-plus
+pnpm add @cdlab996/element-plus-lowcode-materials
 ```
 
 Import the package and initialize the editor:
@@ -30,7 +30,7 @@ Import the package and initialize the editor:
 ```ts
 import { injectAssets } from '@alilc/lowcode-plugin-inject'
 import { IPublicModelPluginContext } from '@alilc/lowcode-types'
-import assets from '@cdlab996/lowcode-materials-element-plus/dist/assets.json'
+import assets from '@cdlab996/element-plus-lowcode-materials/dist/assets.json'
 
 const editorInit = (ctx: IPublicModelPluginContext) => {
   return {
@@ -62,7 +62,7 @@ const editorInit = (ctx: IPublicModelPluginContext) => {
     async init() {
       const { material, project } = ctx
 
-      const loadedAssets = await injectAssets('https://unpkg.com/@cdlab996/lowcode-materials-element-plus/dist/assets.json')
+      const loadedAssets = await injectAssets('https://unpkg.com/@cdlab996/element-plus-lowcode-materials/dist/assets.json')
       material.setAssets(loadedAssets)
       // ...
     },
@@ -83,21 +83,21 @@ Here is an example of the `assets.json` file:
   "version": "0.0.1",
   "packages": [
     {
-      "package": "@cdlab996/lowcode-materials-element-plus",
+      "package": "@cdlab996/element-plus-lowcode-materials",
       "version": "0.0.1",
-      "library": "Cdlab996LowcodeMaterialsElementPlus",
+      "library": "Cdlab996ElementPlusLowcodeMaterials",
       "urls": [
-        "https://unpkg.com/@cdlab996/lowcode-materials-element-plus/dist/index.css",
-        "https://unpkg.com/@cdlab996/lowcode-materials-element-plus/dist/index.js"
+        "https://unpkg.com/@cdlab996/element-plus-lowcode-materials/dist/index.css",
+        "https://unpkg.com/@cdlab996/element-plus-lowcode-materials/dist/index.js"
       ]
     }
   ],
   "components": [
     {
-      "exportName": "Cdlab996LowcodeMaterialsElementPlusMeta",
-      "url": "https://unpkg.com/@cdlab996/lowcode-materials-element-plus/dist/meta.js",
+      "exportName": "Cdlab996ElementPlusLowcodeMaterialsMeta",
+      "url": "https://unpkg.com/@cdlab996/element-plus-lowcode-materials/dist/meta.js",
       "package": {
-        "npm": "@cdlab996/lowcode-materials-element-plus"
+        "npm": "@cdlab996/element-plus-lowcode-materials"
       }
     }
   ],
