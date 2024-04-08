@@ -8,17 +8,15 @@
 
 [![npm version](https://img.shields.io/npm/v/@cdlab996/vant-lowcode-materials?logo=npm)](https://www.npmjs.com/package/@cdlab996/vant-lowcode-materials)
 [![npm downloads](https://img.shields.io/npm/dm/@cdlab996/vant-lowcode-materials)](https://www.npmjs.com/package/@cdlab996/vant-lowcode-materials)
-[![GitHub license](https://github.com/cdLab996/lowcode-engine-materials-vue)](https://github.com/cdLab996/lowcode-engine-materials-vue/blob/main/LICENSE)
 
 </div>
 
 ## Component material complete list
 
-- [x] button
-- [x] image
+- [x] Button
+- [x] Image
 - [x] Switch
-- [x] tab
-- [x] tabs
+- [x] Tab/Tabs
 
 ## Usage Example
 
@@ -110,3 +108,7 @@ Here is an example of the `assets.json` file:
   }
 }
 ```
+
+## 📜 License
+
+[MIT](./LICENSE) License &copy; 2023-PRESENT [cdLab996](https://github.com/cdLab996)

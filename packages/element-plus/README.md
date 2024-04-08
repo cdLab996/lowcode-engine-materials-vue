@@ -8,14 +8,13 @@
 
 [![npm version](https://img.shields.io/npm/v/@cdlab996/element-plus-lowcode-materials?logo=npm)](https://www.npmjs.com/package/@cdlab996/element-plus-lowcode-materials)
 [![npm downloads](https://img.shields.io/npm/dm/@cdlab996/element-plus-lowcode-materials)](https://www.npmjs.com/package/@cdlab996/element-plus-lowcode-materials)
-[![GitHub license](https://github.com/cdLab996/lowcode-engine-materials-vue)](https://github.com/cdLab996/lowcode-engine-materials-vue/blob/main/LICENSE)
 
 </div>
 
 ## Component material complete list
 
-- [x] button
-- [x] affix
+- [x] Button
+- [x] Affix
 
 ## Usage Example
 
@@ -107,3 +106,7 @@ Here is an example of the `assets.json` file:
   }
 }
 ```
+
+## 📜 License
+
+[MIT](./LICENSE) License &copy; 2023-PRESENT [cdLab996](https://github.com/cdLab996)

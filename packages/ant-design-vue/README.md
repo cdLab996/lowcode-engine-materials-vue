@@ -8,13 +8,12 @@
 
 [![npm version](https://img.shields.io/npm/v/@cdlab996/lowcode-materials-antd?logo=npm)](https://www.npmjs.com/package/@cdlab996/lowcode-materials-antd)
 [![npm downloads](https://img.shields.io/npm/dm/@cdlab996/lowcode-materials-antd)](https://www.npmjs.com/package/@cdlab996/lowcode-materials-antd)
-[![GitHub license](https://github.com/cdLab996/lowcode-engine-materials-vue)](https://github.com/cdLab996/lowcode-engine-materials-vue/blob/main/LICENSE)
 
 </div>
 
 ## Component material complete list
 
-- [x] button
+- [x] Button
 
 ## Usage Example
 
@@ -106,3 +105,7 @@ Here is an example of the `assets.json` file:
   }
 }
 ```
+
+## 📜 License
+
+[MIT](./LICENSE) License &copy; 2023-PRESENT [cdLab996](https://github.com/cdLab996)
