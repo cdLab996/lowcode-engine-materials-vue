@@ -1,0 +1,30 @@
+{
+  "name": "@cdlab996/lowcode-materials-vant",
+  "version": "0.0.1",
+  "main": "./dist/index.min.js",
+  "module": "./dist/lowcode-materials-vant.mjs",
+  "typings": "./dist/lowcode-materials-vant.d.ts",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "start": "vue-cli-service lowcode:dev",
+    "build": "vue-cli-service lowcode:build && vite build",
+    "prepack": "pnpm build"
+  },
+  "peerDependencies": {
+    "vue": ">= 3.x < 4"
+  },
+  "dependencies": {
+    "vant": "^4.8.10",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@alilc/lowcode-types": "^1.3.2",
+    "@knxcloud/vue-cli-plugin-lowcode": "^1.1.4",
+    "@vue/cli-plugin-babel": "5.0.8",
+    "@vue/cli-plugin-typescript": "5.0.8",
+    "@vue/cli-service": "5.0.8",
+    "vite-plugin-lib-types": "^3.0.9"
+  }
+}
