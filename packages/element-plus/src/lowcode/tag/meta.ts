@@ -13,7 +13,19 @@ const meta: IPublicTypeComponentMetadata = {
       {
         name: 'children',
         title: '文本',
-        setter: 'StringSetter',
+        setter: [
+          {
+            componentName: 'StringSetter',
+          },
+          {
+            componentName: 'SlotSetter',
+            initialValue: {
+              type: 'JSSlot',
+              params: ['slotProps'],
+              value: [],
+            },
+          },
+        ],
       },
       {
         name: 'type',
