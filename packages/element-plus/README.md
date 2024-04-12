@@ -13,8 +13,15 @@
 
 ## Component material complete list
 
-- [x] Button
 - [x] Affix
+- [x] Button
+- [x] Text
+- [ ] Card
+- [ ] Cascader
+- [ ] Checkbox
+- [x] Input
+- [ ] Option
+- [x] Tag
 
 ## Usage Example
 
