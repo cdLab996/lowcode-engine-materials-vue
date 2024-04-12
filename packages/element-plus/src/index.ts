@@ -3,6 +3,7 @@ import packagesInfo from '../package.json'
 
 export { ElAffix } from 'element-plus'
 export { ElButton } from 'element-plus'
+export { ElText } from 'element-plus'
 export { ElCard } from 'element-plus'
 export { ElCascader } from 'element-plus'
 export { ElCheckbox } from 'element-plus'
